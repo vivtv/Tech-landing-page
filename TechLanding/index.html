@@ -26,18 +26,23 @@
 
             <nav class="navbar navbar-expand-lg float-right d-none d-lg-inline-flex main-nav">
                 <ul class="navbar-nav">
-                    <li class="nav-item px-2 active">
-                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="#feature">Feature</a>
-                    </li>
                     <li class="nav-item px-2">
                         <a class="nav-link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
-                <button type="button" class="btn pink-btn text-white ml-md-4 px-3 font-weight-bold rounded-pill">Get
-                    Started</button>
+                            <div class="dropdown">
+                                <a class="btn pink-btn text-white ml-md-4 px-3 font-weight-bold rounded-pill" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret">English</span>
+                                </a>
+    
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">English</a>
+                                    <a class="dropdown-item" href="#">German</a>
+                                </div>
+                            </div>
+
+                        </div>
             </nav>
 
 
@@ -235,27 +240,6 @@
             alt="Footer background" class="footer-extender">
 
         <div class="container page-map text-white">
-            <div class="row">
-                <div class="language-downloads col-12 col-lg-4">
-                    <div class="lang-wrapper mb-5">
-                        <p class="heading-big mb-4">Language</p>
-                        <div class="dropdown">
-                            <a class="btn btn-secondary text-white dropdown-toggle" href="#" role="button"
-                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="caret">English</span>
-                            </a>
-
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">English</a>
-                                <a class="dropdown-item" href="#">German</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="download-wrapper" onclick="window.location.href='https://app.viennaflow.at/'" style="cursor: pointer;">
-                        <p class="heading-big mb-4">Access ViennaFlow</p>
-                    </div>
-                </div>
 
                 <div class="about-us col-12 col-lg-2 mt-xs-5 mt-5 mt-lg-0 mr-lg-5">
                     <p class="heading-big">About us</p>
